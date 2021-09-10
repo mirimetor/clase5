@@ -1,0 +1,29 @@
+body{
+    background-color: brown;
+    margin: 20%;
+    display: flex;
+}
+.caja{
+    margin: auto;
+    perspective: 700px;
+    perspective-origin: top;
+}
+.cara{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transition: all 5s;
+    transform: rotateX(50deg);
+    transform-style: preserve-3d;
+}
+.cara1go{
+    width: 200px;
+    height: 200px;
+    background: silver;
+    margin: auto;
+    transform: rotateY(90deg);
+}
+
+.cara:hover{
+    transform: rotateY(90deg);
+}

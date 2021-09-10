@@ -1,0 +1,27 @@
+/*Comentarios*/
+h1, h2{
+    color:red;
+    letter-spacing: 5px;
+}
+/*etiquetas menores*/
+#a{
+    color: blue;
+}
+/*etiquetas mayores*/
+.b{
+    color: green;
+}
+p, a{
+    color: orange;
+}
+
+.c1{
+    color: rgb(99, 138, 190) ;
+}
+/*Búsqueda por nombre*/
+h2[name$=xyz]{
+    color: teal;
+}
+p[name$="ita"]{
+    color: violet;
+}

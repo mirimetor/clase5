@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(125, 136, 136);
+}
+h3,p{
+    color: white;
+}
+.a1, .a2{
+    float: left;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 20px 10px 20px rgba(100, 1, 1, 10);
+}
+.a1{
+    margin-right: 30%;
+}
+.a1{
+    background-color: orange;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.a2{
+    background-color: green;
+    width: 100px;
+    border-radius: 10px;
+}
+.a2{
+    /*Rotar*/
+    transform: rotate(-10deg);
+    /**Trasladar
+    transform: translate(25px,10px);*/
+}
